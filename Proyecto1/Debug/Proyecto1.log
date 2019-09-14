@@ -1,0 +1,35 @@
+﻿  Cama.cpp
+  Especialidad.cpp
+  Medico.cpp
+  Pabellon.cpp
+  Paciente.cpp
+  Proyecto1.cpp
+  Generando código...
+C:\Users\maria\source\repos\main\Proyecto1\Proyecto1.cpp(116,80): warning C4390:  ';': se encontró una instrucción controlada vacía; ¿es esa la intención?
+C:\Users\maria\source\repos\main\Proyecto1\Paciente.cpp(69): warning C4715:  'Pabellon::vereficarGeneroPabellon': no todas las rutas de acceso de control devuelven un valor
+C:\Users\maria\source\repos\main\Proyecto1\Pabellon.cpp(68): warning C4715:  'Pabellon::vereficarGeneroPabellon': no todas las rutas de acceso de control devuelven un valor
+C:\Users\maria\source\repos\main\Proyecto1\Especialidad.cpp(36): warning C4715:  'Especialidad::getEspecialidades': no todas las rutas de acceso de control devuelven un valor
+Paciente.obj : error LNK2005: ya se definió "public: __thiscall Pabellon::Pabellon(int,int)" (??0Pabellon@@QAE@HH@Z) en Pabellon.obj
+Paciente.obj : error LNK2005: ya se definió "public: __thiscall Pabellon::Pabellon(void)" (??0Pabellon@@QAE@XZ) en Pabellon.obj
+Paciente.obj : error LNK2005: ya se definió "public: __thiscall Pabellon::~Pabellon(void)" (??1Pabellon@@QAE@XZ) en Pabellon.obj
+Paciente.obj : error LNK2005: ya se definió "public: void __thiscall Pabellon::cambiarPacienteCama(class Paciente *)" (?cambiarPacienteCama@Pabellon@@QAEXPAVPaciente@@@Z) en Pabellon.obj
+Paciente.obj : error LNK2005: ya se definió "public: class Cama __thiscall Pabellon::getPabellon(void)" (?getPabellon@Pabellon@@QAE?AVCama@@XZ) en Pabellon.obj
+Paciente.obj : error LNK2005: ya se definió "public: bool __thiscall Pabellon::hayDisponibilidad(void)" (?hayDisponibilidad@Pabellon@@QAE_NXZ) en Pabellon.obj
+Paciente.obj : error LNK2005: ya se definió "public: void __thiscall Pabellon::setCamaEnPosicion(class Cama *,int,int)" (?setCamaEnPosicion@Pabellon@@QAEXPAVCama@@HH@Z) en Pabellon.obj
+Paciente.obj : error LNK2005: ya se definió "public: void __thiscall Pabellon::setPabellon(class Cama * *)" (?setPabellon@Pabellon@@QAEXPAPAVCama@@@Z) en Pabellon.obj
+Paciente.obj : error LNK2005: ya se definió "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Pabellon::toStringPabellon(void)" (?toStringPabellon@Pabellon@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) en Pabellon.obj
+Paciente.obj : error LNK2005: ya se definió "public: int __thiscall Pabellon::totalDisponibilidad(void)" (?totalDisponibilidad@Pabellon@@QAEHXZ) en Pabellon.obj
+Paciente.obj : error LNK2005: ya se definió "public: char __thiscall Pabellon::vereficarGeneroPabellon(void)" (?vereficarGeneroPabellon@Pabellon@@QAEDXZ) en Pabellon.obj
+Cama.obj : error LNK2019: símbolo externo "public: __thiscall Paciente::Paciente(void)" (??0Paciente@@QAE@XZ) sin resolver al que se hace referencia en la función "public: __thiscall Cama::Cama(void)" (??0Cama@@QAE@XZ)
+Proyecto1.obj : error LNK2001: símbolo externo "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Paciente::getNombre(void)" (?getNombre@Paciente@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) sin resolver
+Cama.obj : error LNK2001: símbolo externo "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Paciente::getNombre(void)" (?getNombre@Paciente@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) sin resolver
+Medico.obj : error LNK2001: símbolo externo "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Paciente::getNombre(void)" (?getNombre@Paciente@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) sin resolver
+Pabellon.obj : error LNK2001: símbolo externo "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Paciente::getNombre(void)" (?getNombre@Paciente@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) sin resolver
+Paciente.obj : error LNK2001: símbolo externo "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Paciente::getNombre(void)" (?getNombre@Paciente@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) sin resolver
+Cama.obj : error LNK2019: símbolo externo "public: bool __thiscall Paciente::getEstadoPaciente(void)" (?getEstadoPaciente@Paciente@@QAE_NXZ) sin resolver al que se hace referencia en la función "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Cama::toStringCama(void)" (?toStringCama@Cama@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+Medico.obj : error LNK2019: símbolo externo "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Paciente::getCedula(void)" (?getCedula@Paciente@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) sin resolver al que se hace referencia en la función "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Medico::reporteMedico(void)" (?reporteMedico@Medico@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+Pabellon.obj : error LNK2019: símbolo externo "public: char __thiscall Paciente::getGeneroPaciente(void)" (?getGeneroPaciente@Paciente@@QAEDXZ) sin resolver al que se hace referencia en la función "public: char __thiscall Pabellon::vereficarGeneroPabellon(void)" (?vereficarGeneroPabellon@Pabellon@@QAEDXZ)
+Paciente.obj : error LNK2001: símbolo externo "public: char __thiscall Paciente::getGeneroPaciente(void)" (?getGeneroPaciente@Paciente@@QAEDXZ) sin resolver
+Proyecto1.obj : error LNK2019: símbolo externo "public: __thiscall Paciente::Paciente(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool,char)" (??0Paciente@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@000000_ND@Z) sin resolver al que se hace referencia en la función _main
+Proyecto1.obj : error LNK2019: símbolo externo "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Paciente::reportePaciente(void)" (?reportePaciente@Paciente@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) sin resolver al que se hace referencia en la función _main
+C:\Users\maria\source\repos\main\Debug\Proyecto1.exe : fatal error LNK1120: 7 externos sin resolver
